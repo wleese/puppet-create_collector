@@ -15,7 +15,7 @@ $overrides =  { 'uid'    => '8888',
                 'groups' => ['wheel','audio'],
               }
 
-create_collector('user', 'title', 'myusers', $overrides)
+create_collector('user', 'title', 'wleese', $overrides)
 ```
 
 Known Issues:
