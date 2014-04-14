@@ -7,7 +7,14 @@ First argument is the resource type, second the parameter/property you want to m
 value and finally a hash of parameters/properties you want to override.
 
 ```
-$overrides = { "uid" => "8888","groups" => ["wheel","audio"] }
+user { 'wleese':
+  uid    => '101010',
+}
+
+$overrides =  { 'uid'    => '8888',
+                'groups' => ['wheel','audio'],
+              }
+
 create_collector('user', 'title', 'myusers', $overrides)
 ```
 
