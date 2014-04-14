@@ -10,7 +10,7 @@
 # http://docs.puppetlabs.com/guides/tests_smoke.html
 #
 
-user { 'wleese':
+@user { 'wleese':
   uid    => '101010',
 }
 
