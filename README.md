@@ -7,7 +7,7 @@ First argument is the resource type, second the parameter/property you want to m
 value and finally a hash of parameters/properties you want to override.
 
 ```
-user { 'wleese':
+@user { 'wleese':
   uid    => '101010',
 }
 
